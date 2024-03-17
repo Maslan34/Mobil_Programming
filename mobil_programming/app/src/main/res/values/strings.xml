@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">mobil_programming</string>
+    <string name="app_name"> mobile_programming</string>
+    <string name="istanbul"> Türkiye nin en kalabalık şehri ve ekonomik, kültürel, tarihi merkezidir. İki kıtayı birleştiren bu şehir, dünyanın en önemli metropollerinden biridir.</string>
+    <string name="plate_istanbul">34</string>
+    <string name="ankara"> Türkiye nin başkenti ve ikinci en kalabalık şehridir. Ülkenin politik ve idari merkezi olan Ankara, aynı zamanda birçok üniversite ve diplomatik misyonu barındırır.</string>
+    <string name="plate_ankara">06</string>
+    <string name="izmir">  Ege Bölgesi nin en büyük şehri olan İzmir, önemli bir liman kenti ve ticaret merkezidir. Zengin tarihi ve doğal güzellikleri ile ünlüdür.</string>
+    <string name="plate_izmir">35</string>
+    <string name="bursa"> Osmanlı İmparatorluğu nun ilk başkenti olan Bursa, tarihi ve kültürel zenginlikleriyle bilinir. Aynı zamanda önemli bir sanayi şehridir.</string>
+    <string name="plate_bursa">16</string>
+    <string name="antalya"> Akdeniz Bölgesi nde yer alan Antalya, Türkiye nin en popüler turizm destinasyonlarından biridir. Doğal güzellikleri ve tarihi eserleri ile dikkat çeker.</string>
+    <string name="plate_antalya">07</string>
+    <string name="adana"> Çukurova nın bereketli topraklarında kurulu olan Adana, tarım, sanayi ve ticaretin önemli merkezlerinden biridir.</string>
+    <string name="plate_adana">01</string>
+    <string name="samsun"> Karadeniz Bölgesi nin en büyük şehirlerinden biri olan Samsun, tarihi ve ekonomik öneme sahiptir. Türkiye nin Kurtuluş Savaşı burada başlamıştır.</string>
+    <string name="plate_samsun">55</string>
+    <string name="trabzon"> Karadeniz kıyısında yer alan Trabzon, tarihi İpek Yolu üzerinde önemli bir durak olmuştur. Doğal güzellikleri ve tarihi yapıları ile ünlüdür.</string>
+    <string name="plate_trabzon">61</string>
+    <string name="konya"> Anadolu nun en eski yerleşim yerlerinden biri olan Konya, Mevlana Celaleddin-i Rumi nin şehri olarak bilinir. Zengin tarihi mirasa sahiptir.</string>
+    <string name="plate_konya">42</string>
+    <string name="gaziantep"> Güneydoğu Anadolu Bölgesi nde yer alan Gaziantep, zengin mutfağı ve tarihi eserleri ile ünlüdür. Aynı zamanda önemli bir sanayi ve ticaret merkezidir.</string>
+    <string name="plate_gaziantep">27</string>
+
 </resources>
