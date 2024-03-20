@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobil_programming"
         tools:targetApi="33"
+
         >
 
 
@@ -24,12 +25,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".work1"
-            android:exported="false" />
-        <activity
-            android:name=".work2"
-            android:exported="false" />
+        <activity android:name=".work1"
+            android:exported="false"/>
+
+        <activity android:name=".work2"
+            android:exported="false"/>
+
+        <activity android:name=".work3"
+            android:exported="false"/>
+
+        <activity android:name=".work4"
+            android:exported="false"/>
+
+        <activity android:name=".intentData"
+            android:exported="false"/>
+
+
     </application>
 
 </manifest>

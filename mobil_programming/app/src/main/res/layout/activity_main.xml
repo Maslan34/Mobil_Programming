@@ -11,10 +11,9 @@
         android:id="@+id/btn_work1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:onClick="goWork"
         android:text="Work1"
-        app:layout_constraintBottom_toTopOf="@+id/btn_work2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_work3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,14 +23,13 @@
         android:id="@+id/btn_work2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:onClick="goWork"
         android:text="Work2"
-        app:layout_constraintBottom_toTopOf="@+id/btn_work3"
+        app:layout_constraintBottom_toTopOf="@+id/btn_work4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_work1" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_work3" />
 
     <Button
         android:id="@+id/btn_work3"
@@ -39,6 +37,18 @@
         android:layout_height="wrap_content"
         android:onClick="goWork"
         android:text="Work3"
+        app:layout_constraintBottom_toTopOf="@+id/btn_work2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_work1" />
+
+    <Button
+        android:id="@+id/btn_work4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goWork"
+        android:text="Work4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
