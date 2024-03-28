@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
             intent = new Intent(MainActivity.this, work4.class);
             startActivity(intent);
         }
+        else if (R.id.btn_work5 == objId) {
+            intent = new Intent(MainActivity.this, work5.class);
+            startActivity(intent);
+        }
         else {
             System.out.println("Warning");
         }
