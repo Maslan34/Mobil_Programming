@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_new_contact"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="New Contact"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menu_item_close_app"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Close App"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menu_item_delete"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menu_item_call"
+        android:icon="@android:drawable/stat_sys_phone_call"
+        android:title="Call"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menu_item_update"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="Update"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>

@@ -12,6 +12,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (getIntent().getBooleanExtra("EXIT", false)) {
+            finish();
+        }
     }
 
 
@@ -34,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
         }
         else if (R.id.btn_work5 == objId) {
             intent = new Intent(MainActivity.this, work5.class);
+            startActivity(intent);
+        }
+        else if (R.id.btn_work6 == objId) {
+            intent = new Intent(MainActivity.this, work6.class);
             startActivity(intent);
         }
         else {
