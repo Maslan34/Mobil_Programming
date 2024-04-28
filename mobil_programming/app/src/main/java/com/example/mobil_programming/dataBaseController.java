@@ -64,6 +64,7 @@ public class dataBaseController extends SQLiteOpenHelper {
     public Cursor getContact(long userId) {
         SQLiteDatabase db = this.getReadableDatabase();
         return db.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE id = ?", new String[] {String.valueOf(userId)});
+
     }
 
     public void deleteOne(long id) {

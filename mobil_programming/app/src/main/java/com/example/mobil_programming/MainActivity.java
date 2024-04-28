@@ -8,10 +8,12 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         if (getIntent().getBooleanExtra("EXIT", false)) {
             finish();
         }
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     public void goWork(View view) {
         int objId = view.getId();
         Intent intent;
+
         if (R.id.btn_work1 == objId) {
             intent = new Intent(MainActivity.this, work1.class);
              startActivity(intent);

@@ -7,6 +7,8 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.telephony.SmsManager;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -24,10 +26,10 @@ public class work5 extends AppCompatActivity {
 
     String phoneNumber;
 
-    final static int CAMERA_REQUEST = 5334;
+    final static  int CAMERA_REQUEST = 5334;
     final static int PERMISSION_REQUEST_CODE = 101;
 
-    private static final int SMS_PERMISSION_CODE = 102;
+     static final int SMS_PERMISSION_CODE = 102;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,17 @@ public class work5 extends AppCompatActivity {
         setContentView(R.layout.activity_work5);
         etPermission = findViewById(R.id.et_permission);
         imgPermission = findViewById(R.id.img_permession);
+    }
+
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    public void go_back(MenuItem item) {
+        onBackPressed(); // Geri butonuna tıklandığında geri gitme işlevi
     }
 
     public void get_permission(View v) {
