@@ -10,6 +10,7 @@
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -21,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
         tools:targetApi="33"
-
+        android:usesCleartextTraffic="true"
         >
 
 
@@ -62,6 +63,8 @@
         <activity android:name=".updateContact"
             android:exported="false"/>
 
+        <activity android:name=".work7"
+            android:exported="false"/>
 
 
     </application>
