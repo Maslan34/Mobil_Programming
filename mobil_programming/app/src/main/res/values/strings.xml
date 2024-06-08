@@ -20,5 +20,6 @@
     <string name="plate_konya">42</string>
     <string name="gaziantep"> Güneydoğu Anadolu Bölgesi nde yer alan Gaziantep, zengin mutfağı ve tarihi eserleri ile ünlüdür. Aynı zamanda önemli bir sanayi ve ticaret merkezidir.</string>
     <string name="plate_gaziantep">27</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>

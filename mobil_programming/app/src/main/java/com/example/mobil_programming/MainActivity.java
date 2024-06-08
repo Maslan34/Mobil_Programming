@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
         else if (R.id.btn_work8 == objId) {
-            intent = new Intent(MainActivity.this, work7.class);
+            intent = new Intent(MainActivity.this, work8.class);
             startActivity(intent);
         }
         else {

@@ -105,7 +105,7 @@
         android:id="@+id/btn_work8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="go_Work"
+        android:onClick="goWork"
         android:text="WORK8"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toStartOf="@+id/button2"
