@@ -58,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
             intent = new Intent(MainActivity.this, LoginActivity.class);
             startActivity(intent);
         }
+        else if (R.id.btn_work10 == objId) {
+            intent = new Intent(MainActivity.this, work10.class);
+            startActivity(intent);
+        }
         else {
             System.out.println("Warning");
         }

@@ -44,4 +44,5 @@
         <item>Android 13</item>
         <item>Android 14</item>
     </string-array>
+    <string name="title_activity_work10">work10</string>
 </resources>
