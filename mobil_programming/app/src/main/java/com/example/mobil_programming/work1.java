@@ -3,6 +3,8 @@ package com.example.mobil_programming;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
@@ -25,14 +27,22 @@ public class work1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_work1);
+        etv = findViewById(R.id.etv_console);
     }
 
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    public void go_back(MenuItem item) {
+        onBackPressed(); // Geri butonuna tıklandığında geri gitme işlevi
+    }
 
     public void do_numeric(View v){
         int numericId = v.getId();
 
-
-        etv = findViewById(R.id.etv_console);
 
         if(R.id.btn_numeric_one == numericId){
             consoleString=consoleString+"1";
@@ -71,7 +81,6 @@ public class work1 extends AppCompatActivity {
     public void do_operation(View v){
 
         int operationId = v.getId();
-        etv = findViewById(R.id.etv_console);
         etv.setText("");
 
         if(R.id.btn_operation_divide == operationId){

@@ -3,6 +3,8 @@ package com.example.mobil_programming;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -45,8 +47,19 @@ public class work3 extends AppCompatActivity {
 
         btnLeft.setVisibility(View.INVISIBLE);
 
-
     }
+
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    public void go_back(MenuItem item) {
+        onBackPressed(); // Geri butonuna tıklandığında geri gitme işlevi
+    }
+
 
     public  void changeView(View view){
         int id=view.getId();

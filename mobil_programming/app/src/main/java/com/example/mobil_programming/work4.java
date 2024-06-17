@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,6 +32,16 @@ public class work4 extends AppCompatActivity {
         tvData = findViewById(R.id.tv_result_data);
         tvCounter = findViewById(R.id.tv_intent_count);
 
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    public void go_back(MenuItem item) {
+        onBackPressed(); // Geri butonuna tıklandığında geri gitme işlevi
     }
 
     public void getIntentData(View v){
